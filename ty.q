@@ -2,7 +2,7 @@
 
 \d .ty
 
-u.conv:{[typ;x] $[t:type x;$[t in -10 10h;upper typ;typ]$x;.z.s[typ]each x]}
+u.conv:{[typ;x] s:in[;-10 10h];$[t:type x;$[s t;upper typ;typ]$x;0=count x;typ$x;s type first x;$[min s type each x;upper[typ]$x;.z.s[typ]each x];.z.s[typ]each x]}
 
 bool:u.conv"b"
 hex:u.conv"x"
