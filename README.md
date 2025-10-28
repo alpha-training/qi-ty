@@ -19,7 +19,7 @@
     q).ty.sym (`hi;"there")
     `hi`there
     
-**Note** When casting from long lists of strings, better performance can be achieved by casting manually e.g.
+**Note** When casting from large lists of strings, better performance can be achieved by casting manually e.g.
 
 	q)L:string til 10000000
 	q)\t .ty.long L
