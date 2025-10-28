@@ -2,9 +2,11 @@
 
 \d .ty
 
+/ private
 u.s:in[;-10 10h]
 u.conv:{[typ;x] $[t:type x;$[u.s t;upper typ;typ]$x;0=count x;typ$x;u.s type first x;$[min u.s type each x;upper[typ]$x;.z.s[typ]each x];.z.s[typ]each x]}
 
+/ public
 bool:u.conv"b"
 hex:u.conv"x"
 short:u.conv"h"
