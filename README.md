@@ -27,5 +27,5 @@
 	q)\t "J"$L
 	132
 
-There should be little to no performance impact for other list types.
+There should be little to no performance difference for other list types.
 	
