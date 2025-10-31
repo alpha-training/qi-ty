@@ -1,4 +1,4 @@
-/ type conversion helpers
+/ Type conversion helpers
 
 \d .ty
 

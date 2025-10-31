@@ -1,6 +1,6 @@
 # ty
 
-`ty` is a helper library for **type conversions**.
+Type conversion library.
 
 ## Conversion to numbers
     q).ty.int 100f
